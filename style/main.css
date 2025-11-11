@@ -36,17 +36,108 @@
 
 @layer components {
     .card-h1 {
+        margin-top: 1em;
         font-size: 2em;
         color: var(--secondary);
         font-weight: 700;
     }
-    #green-text{
+
+    #green-text {
         color: var(--primary);
         font-weight: 700;
     }
-    #green-text-big{
+
+    #green-text-big {
         color: var(--primary);
         font-weight: 700;
         font-size: 1.5em;
     }
+
+    .btn {
+        display: block;
+        color: white;
+        margin-top: 1em;
+        padding: 1em;
+        padding: auto;
+        background-color: var(--primary);
+        border-radius: 8px;
+        border: none;
+        text-decoration: none;
+        text-align: center;
+        font-weight: 700;
+    }
+
+    .seznam {
+        padding: 1em;
+        list-style-type: none;
+        margin-bottom: 0.1em;
+
+    }
+
+    .ano {
+
+        list-style-image: url(/images/check.svg);
+        margin: 10px 0;
+    }
+
+    .ne {
+        margin: 10px 0;
+        list-style-image: url(/images/cross.svg);
+
+    }
+
+    .green {
+        color: var(--primary);
+        font-weight: 700;
+    }
+
+    .no_a {
+        text-decoration: none;
+        color: var(--primary);
+    }
+
+
+
+    .creative {
+        color: #831843;
+        background-color: #FCE3F1;
+        text-align: center;
+    }
+
+    .card-h1-creative {
+        color: #E73E8F;
+        font-size: xx-large;
+        font-weight: bold;
+    }
+
+    .cyrkle-creative {
+        font-size: 0.8em;
+        width: 7.5rem;
+        height: 7.5rem;
+        border-radius: 50%;
+        background: #E63D8D;
+        color: inherit;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0.5rem auto 1rem;   
+        color: white;
+    }
+    .br{
+        font-weight: bold;
+        font-size: 2em;
+    }
+
+    .a-creative {
+
+        display: block;
+        color: white;
+        padding: 0.5em;
+        background-color: #E73E8F;
+        border-radius: 50px;
+        border: none;
+        text-decoration: none;
+    }
+
 }
